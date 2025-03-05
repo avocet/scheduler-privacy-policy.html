@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>班表都在這 - 隱私政策 | Privacy Policy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        .lang-switch {
+            text-align: right;
+            margin-bottom: 10px;
+        }
+        .lang-switch a {
+            margin-left: 10px;
+            text-decoration: none;
+            color: #007bff;
+        }
+        .lang-switch a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        function switchLang(lang) {
+            document.querySelectorAll('.zh, .en').forEach(el => el.style.display = 'none');
+            document.querySelectorAll(`.${lang}`).forEach(el => el.style.display = 'block');
+        }
+    </script>
+</head>
+<body onload="switchLang('zh')">
+    <div class="container">
+        <div class="lang-switch">
+            <a href="#" onclick="switchLang('zh')">中文</a> | 
+            <a href="#" onclick="switchLang('en')">English</a>
+        </div>
+        
+        <h1 class="zh">班表都在這 - 隱私政策</h1>
+        <h1 class="en">Banbiao - Privacy Policy</h1>
+        
+        <p class="zh">歡迎使用「班表都在這」應用程式。我們重視您的隱私，請閱讀以下政策：</p>
+        <p class="en">Welcome to "Banbiao." We value your privacy. Please read the policy below:</p>
+        
+        <h2 class="zh">1. 收集的資訊</h2>
+        <h2 class="en">1. Information We Collect</h2>
+        <p class="zh">我們可能會收集您的姓名、電子郵件、排班資訊及應用使用數據，以提供更好的服務。</p>
+        <p class="en">We may collect your name, email, scheduling information, and app usage data to improve our services.</p>
+        
+        <h2 class="zh">2. 資料用途</h2>
+        <h2 class="en">2. How We Use Your Data</h2>
+        <p class="zh">我們收集的數據僅用於應用程式功能，如排班管理、分享及通知功能，不會與第三方共享。</p>
+        <p class="en">The data we collect is used solely for app functionality, such as scheduling management, sharing, and notifications. We do not share data with third parties.</p>
+        
+        <h2 class="zh">3. 資料安全</h2>
+        <h2 class="en">3. Data Security</h2>
+        <p class="zh">我們使用加密技術來保護您的個人資訊，確保您的數據安全。</p>
+        <p class="en">We use encryption technology to protect your personal information and ensure data security.</p>
+        
+        <h2 class="zh">4. 權利與選擇</h2>
+        <h2 class="en">4. Your Rights & Choices</h2>
+        <p class="zh">您可以隨時更新或刪除您的個人資料。如需協助，請聯絡我們。</p>
+        <p class="en">You can update or delete your personal data at any time. Contact us for assistance.</p>
+        
+        <h2 class="zh">5. 聯絡我們</h2>
+        <h2 class="en">5. Contact Us</h2>
+        <p class="zh">如果有任何問題或隱私相關的疑慮，請聯絡我們：</p>
+        <p class="en">If you have any questions or privacy concerns, please contact us:</p>
+        <p>Email: support@yourdomain.com</p>
+        
+        <p class="zh"><strong>本隱私政策可能會不時更新，請定期查看。</strong></p>
+        <p class="en"><strong>This privacy policy may be updated periodically. Please check back regularly.</strong></p>
+    </div>
+</body>
+</html>
